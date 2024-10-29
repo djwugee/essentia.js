@@ -3,13 +3,13 @@ var webpack = require('webpack');
 var VueLoaderPlugin = require('vue-loader/lib/plugin');
 var WorkerPlugin = require('worker-plugin');
 
-let publicPath = '/';
+let publicPath = '/onsets/public/';
 switch (process.env.NODE_ENV) {
   case 'development':
-    publicPath = '/';
+    publicPath = '/onsets/public/';
     break;
   case 'production':
-    publicPath = '/essentia.js/examples/demos/onsets/public/';
+    publicPath = '/onsets/public/';
     break;
 }
 
