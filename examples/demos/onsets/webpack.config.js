@@ -3,13 +3,13 @@ var webpack = require('webpack');
 var VueLoaderPlugin = require('vue-loader/lib/plugin');
 var WorkerPlugin = require('worker-plugin');
 
-let publicPath = '/onsets/public/';
+let publicPath = '/examples/demos/onsets/public/';
 switch (process.env.NODE_ENV) {
   case 'development':
-    publicPath = '/onsets/public/';
+    publicPath = '/examples/demos/onsets/public/';
     break;
   case 'production':
-    publicPath = '/onsets/public/';
+    publicPath = '/examples/demos/onsets/public/';
     break;
 }
 
