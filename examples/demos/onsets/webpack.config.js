@@ -6,10 +6,10 @@ var WorkerPlugin = require('worker-plugin');
 let publicPath = '/examples/demos/onsets';
 switch (process.env.NODE_ENV) {
   case 'development':
-    publicPath = '/examples/demos/onsets/';
+    publicPath = '/examples/demos/onsets';
     break;
   case 'production':
-    publicPath = '/examples/demos/onsets/public';
+    publicPath = '/examples/demos/onsets';
     break;
 }
 
