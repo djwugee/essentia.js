@@ -9,7 +9,7 @@ switch (process.env.NODE_ENV) {
     publicPath = '/examples/demos/onsets/';
     break;
   case 'production':
-    publicPath = '/examples/demos/onsets/';
+    publicPath = '/examples/demos/onsets/public';
     break;
 }
 
